@@ -11,29 +11,45 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
-
-
+```
+Program to mark the maximum of marks using the list method sort
+Developed by: PRADEEP V 
+RegisterNumber: 23013543
+```
+```
+def max_marks(marks):
+    marks.sort()
+    large=marks[-1]
+    return large
 
 ```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
-
-
-
+```
+def max_marks(marks):
+    large=max(marks)
+    return large
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
+```
 
-
-
+def max_marks(list1):
+    max=list1[0]
+    for number in list1:
+        if(number>max):
+            max=number
+    return max
 ```
 ## Sample Input and Output
 ![output](./img/max_marks1.jpg) 
 
 ## Output:
+
+![max1](https://github.com/velupradeep/FindMaximum/assets/150329341/7c2fa357-094d-4f0e-84ca-093672bf0b10)
+![max2](https://github.com/velupradeep/FindMaximum/assets/150329341/17501117-79e0-4b19-bef0-47af9b942aa9)
+![max3](https://github.com/velupradeep/FindMaximum/assets/150329341/9a8f3610-d4c7-4d17-aa1c-ac3067d960e2)
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
