@@ -12,32 +12,36 @@ To write a program to find the maximum of a list of numbers.
 
 i)	# To find the maximum of marks using the list method sort.
 ```
+''' 
 Program to mark the maximum of marks using the list method sort
 Developed by: PRADEEP V 
 RegisterNumber: 23013543
+'''
 def max_marks(marks):
     marks.sort()
     large=marks[-1]
     return large
-
 ```
 
 ii)	# To find the maximum marks using the list method max().
 ```
+''' 
 Program to find the maximum marks using the list method max().
 Developed by: PRADEEP V
 RegisterNumber:23013543 
+'''
 def max_marks(marks):
     large=max(marks)
     return large
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-
+```
 ''' 
 Program to the maximum marks without using builtin functions.
 Developed by: PRADEEP V
 RegisterNumber: 23013543
+'''
 def max_marks(list1):
     max=list1[0]
     for number in list1:
@@ -48,10 +52,9 @@ def max_marks(list1):
 
 
 ## Output:
-![3 1](https://github.com/velupradeep/FindMaximum/assets/150329341/e50cadc9-2d2c-47dd-8f94-1ac6570281ca)
-![3 2](https://github.com/velupradeep/FindMaximum/assets/150329341/a06de6fc-ad8e-43d8-beea-13d01ff18b8f)
-![3 3](https://github.com/velupradeep/FindMaximum/assets/150329341/9c13d6be-2415-4876-b015-25d579fa65c4)
-
+1.![3 1](https://github.com/velupradeep/FindMaximum/assets/150329341/4f7efa84-2bcd-446b-b523-91205268f9ab)
+2.![3 2](https://github.com/velupradeep/FindMaximum/assets/150329341/46d04164-5944-4e2b-873a-70014d8a7eaa)
+3.![3 3](https://github.com/velupradeep/FindMaximum/assets/150329341/7542a243-0e2c-43c6-a767-0a20108b459f)
 
 
 
